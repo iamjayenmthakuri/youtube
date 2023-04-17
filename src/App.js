@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Mapping from "./components/Playlist";
+
+// Api : AIzaSyCHYbbXjaW_bC36BBrFEiqK2I1O9b64158
+
+// const channelId = UCMiJRAwDNSNzuYeN2uWa0pA
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Mapping />
+    </>
   );
 }
-
 export default App;
