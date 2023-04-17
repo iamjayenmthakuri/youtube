@@ -1,0 +1,27 @@
+.pagination {
+    display:flex;
+    background-color:#272929;
+    width:100vw;
+    height: fit-content;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e3d9d9;
+    cursor: pointer;
+  }
+  
+  .pagination li.active {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+  }
+  
